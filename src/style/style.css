@@ -1,12 +1,32 @@
 body {
-    display: flex;
+    display: flexbox;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #bc2727;
+    padding: 0px 10px 10px 10px;
 }
 
 h1{
-    font-size: 'Arial', Sans-serif;
-    color: #0b0e0b;
-    text-align: center;
+    font-size: x-large;
+    font-family: 'Arial', Sans-serif;
+    color: #06b206;
+    text-align: left;
     
+}
+
+p, li{
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    color: #f0f0f0;
+}
+
+img{
+    width: 25%;
+    display: flex;
+   
+}
+
+h3{
+    font-family: 'Arial', Sans-serif;
+    color: #06b206;
+    text-align: left;
 }
