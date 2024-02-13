@@ -7,48 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Louis Philip</title>
     <link rel="shortcut icon" href="src/images/download.png" type="image/x-icon">
-    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="./src/style/reset.css">
+    
 </head>
 
 <body>
-
-    <div class="header">
-        <img class="imagem-principal" src="./src/images/imagem-luiz.jpeg" alt="black guy with mustache and small goatee smiling at the camera.">
-        <h1>This is my personal and professional data, feel free to analyze it:</h1>
-    </div>
-
-    <div class="personal-data">
-        <p>This is my personal data:</p>
-        <ul>
-            <li>Birthplace: Joacaba, Brazil</li>
-            <li>Birthdate: 09/08/2004</li>
-        </ul>
-    </div>
-
-    <div class="education">
-        <p class="education-title">My Educational background:</p>
-        <ul>
-            <li>Governor Celso Ramos Basic Education School - High school</li>
-            <li>Universidade Catarinense do Oeste (UNOESC) - Computer Engineering, still graduating</li>
-        </ul>
-    </div>
-
-    <div class="professional-data">
-        <h3>Experience:</h3>
-        <p>Bus Monitor - Autoviação Herval/APAE Joaçaba</p>
-        <ul>
-            <li>Get the disabled students and bring them carefully to APAE;</li>
-            <li>Observe them throughout the journey to ensure their safety;</li>
-            <li>Allow them to have a pacific environment despite some differences;</li>
-        </ul>
-    </div>
-    <div class="links">
-        <h3>My social media:</h3>
-        <button><a href="https://www.linkedin.com/in/luiz-felipe-kauê-da-silva-5a04b326a/">Linkedin</a></button>
-        <button><a href="https://github.com/LizulDev">GitHub</a></button>
-        <button><a href="https://www.instagram.com/luizfks_oficial">Instagram</a></button>
-    </div>
+    <main class="main-profile">
+        <section class="personal-profile">
+        
+            <img id="main-image"src="./src/images/imagem-luiz.jpeg" alt="black guy with mustache and small goatee smiling at the camera."> 
+            <div class="information">
+                <h2>Personal Data:</h2>
+                <br>
+                <ul>
+                    <li>Name: Louis Philip</li>
+                    <li>Nationality: Brazilian</li>
+                    <li>Birthplace: Joacaba, Brazil</li>
+                    <li>Birthdate: 09/08/2004</li>
+                </ul>
+                <br>
+                
+                <h2>Educational background:</h2>
+                <br>
+                <ul>
+                    <li>Governor Celso Ramos Basic Education School - High school</li>
+                    <li>Universidade Catarinense do Oeste (UNOESC) - Computer Engineering, still graduating;</li>
+                </ul>
+                <br>
+    
+                <h2>Experience:</h2>
+                <br>
+                <p>Bus Monitor - Autoviação Herval/APAE Joaçaba:</p>
+                <ul>
+                    <li>- Get the disabled students and bring them carefully to APAE;</li>
+                    <li>- Observe them throughout the journey to ensure their safety;</li>
+                    <li>- Allow them to have a pacific environment despite some differences;</li>
+                </ul>
+            </div>
+            <div class="links">
+                    <h2 id="title-smd">My social media:</h2>
+                    <div class="container">
+                        <a href="https://www.linkedin.com/in/luiz-felipe-kauê-da-silva-5a04b326a/" target="blank"><img src="src/images/Popular_Social_Media-22-512.webp" alt="logo-linkedin"></a>
+                        <a href="https://github.com/LizulDev" target="blank"><img src="src/images/GitHub-Logo.png" alt="logo-github"></a>
+                        <a href="https://www.instagram.com/luizfks_oficial" target="blank"><img src="src/images/instagram-icon-2-removebg-preview.png" alt="logo-instagram" target="blank"></a>
+                    </div>
+            </div>
+        </section>
+        <section class="projetos">
+            <h2 id="projects-title">Personal Projects</h2>
+            <div class="projetos-feitos">
+                <a class="links-projetos"href="https://github.com/LizulDev/Bill_Organizer" target="blank">Bill Organizer</a>
+                <a class="links-projetos" href="https://github.com/LizulDev/audiobook-interativo" target="blank">Interactive Audiobook</a>
+                <a class="links-projetos" href="https://github.com/LizulDev/projeto-gta" target="blank">Rockstar Games Landing Page</a>
+                <a class="links-projetos" href="https://github.com/LizulDev/HERO_CLASSES" target="blank">Hero Classes</a>
+            </div>
+        </section>
+    </main>
     
 </body>
-
 </html>
